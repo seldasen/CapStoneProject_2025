@@ -1,7 +1,7 @@
 
 # WORLD HAPPINESS REPORT
 
-# ![Image1](C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image1.jpeg)
+# !(C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image1.jpeg)
 
 
 This project aims to provide an in-depth analysis of the happiness rates of countries around the world between 2020 and 2024.
@@ -12,12 +12,29 @@ This project aims to provide an in-depth analysis of the happiness rates of coun
 
 There are 5 csv files for the years 2020-2024
 
-# ![Image5](C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image5.jpeg)
+
+
+| Column Name                 | Description                                                           |
+|-----------------------------|-----------------------------------------------------------------------|
+|Country name                 | Name of the Country                                                   |
+| Happiness Rank              | The ranking of thecountry based on the happiness score                |
+| HAppiness score             | The happiness scpre of the country (likely between 1 and 10)          |
+| Upperwhisker                | Upper bound of the confidence interval                                |
+| Lowerwhisker                | Lower bound of the confidence interval.                               |
+| Economy(GDP per Capita)     | GDP per capita (a measure of economic prosperty)                      |
+| Social Support              | Level of social support (e.g. relationships with family and friends.) |
+| Health life expectancy      | Expectednumber of healthy life years.                                 |
+| Freedom to make life choices| Freedom to make personal life choices.                                |
+|  Generosity                 | Generosity level(based on donations and willingness to help others)   |
+|  PErceptions of corruption  | Perceived level of corruption in the country                          |
+|   Year                      | The year to which the data belongs.                                   |
+
+
 
 
 ## Business Requirements
 * Describe your business requirements
-
+ 
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
