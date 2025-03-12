@@ -1,13 +1,18 @@
 
 # WORLD HAPPINESS REPORT
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+# ![Image1](C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image1.jpeg)
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+This project aims to provide an in-depth analysis of the happiness rates of countries around the world between 2020 and 2024.
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* Datasets are taken from Kaggle. The data is prepared by Gallup World Poll and Global Survey Research.
+
+There are 5 csv files for the years 2020-2024
+
+# ![Image5](C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image5.jpeg)
 
 
 ## Business Requirements
@@ -89,3 +94,6 @@
 
 ## Acknowledgements (optional)
 * Thank the people who provided support through this project.
+
+
+[def]: C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image1.jpeg
