@@ -1,7 +1,7 @@
 
 # WORLD HAPPINESS REPORT
 
-![alt text goes here](images/image1.jpeg)
+![image](images/image1.jpeg)
 
 
 This project aims to provide an in-depth analysis of the happiness rates of countries around the world between 2020 and 2024 and  analyze the key factors influencing happiness levels across different countries and provide insights for policymakers, economists, and social scientists.
@@ -63,6 +63,17 @@ Measure the impact of economic growth on happiness and propose strategies to enh
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
+
+
+Undertake initial analysis to look at potential hypothesis to test.
+Agree Hypothesis to test and first steps.
+Complete First ETL for core data
+Identify potential data to enhance analysis
+Undertake analysis to prove/disprove hypothesis
+undertake T-Tests on hypothesis and make results
+
+
+Produce commentary of hypothesis results and analysis
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
