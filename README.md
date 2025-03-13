@@ -1,22 +1,22 @@
 
 # WORLD HAPPINESS REPORT
 
-# !(C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image1.jpeg)
+![alt text goes here](images/image1.jpeg)
 
 
-This project aims to provide an in-depth analysis of the happiness rates of countries around the world between 2020 and 2024.
+This project aims to provide an in-depth analysis of the happiness rates of countries around the world between 2020 and 2024 and  analyze the key factors influencing happiness levels across different countries and provide insights for policymakers, economists, and social scientists.
 
 
 ## Dataset Content
 * Datasets are taken from Kaggle. The data is prepared by Gallup World Poll and Global Survey Research.
 
-There are 5 csv files for the years 2020-2024
+There are 5 csv files for the years 2020-2024.  They Have  eleven columns . Combined all csv files and added year column.
 
 
 
 | Column Name                 | Description                                                           |
 |-----------------------------|-----------------------------------------------------------------------|
-|Country name                 | Name of the Country                                                   |
+| Country name                | Name of the Country                                                   |
 | Happiness Rank              | The ranking of thecountry based on the happiness score                |
 | HAppiness score             | The happiness scpre of the country (likely between 1 and 10)          |
 | Upperwhisker                | Upper bound of the confidence interval                                |
@@ -25,16 +25,36 @@ There are 5 csv files for the years 2020-2024
 | Social Support              | Level of social support (e.g. relationships with family and friends.) |
 | Health life expectancy      | Expectednumber of healthy life years.                                 |
 | Freedom to make life choices| Freedom to make personal life choices.                                |
-|  Generosity                 | Generosity level(based on donations and willingness to help others)   |
-|  PErceptions of corruption  | Perceived level of corruption in the country                          |
-|   Year                      | The year to which the data belongs.                                   |
+| Generosity                  | Generosity level(based on donations and willingness to help others)   |
+| PErceptions of corruption   | Perceived level of corruption in the country                          |
+| Year                        | The year to which the data belongs.                                   |
 
 
 
 
 ## Business Requirements
-* Describe your business requirements
- 
+*  The business requirements should focus on understanding the factors that influence happiness scores and analyzing differences between countries. 
+
+ ✅ Identify Key Factors Affecting Happiness
+
+Determine which economic and social factors have the most significant impact on happiness levels.
+Analyze the influence of GDP, social support, health, freedom, generosity, and corruption perceptions.
+Compare countries with the highest and lowest happiness scores to understand the differences.
+
+✅ Analyze Happiness Trends Over Time
+
+Examine how happiness scores have changed between 2020 and 2024.
+Assess the impact of global events, such as the COVID-19 pandemic, on happiness levels.
+
+✅ Visualize Country Comparisons
+
+Identify the happiest and least happy countries and evaluate geographic and economic influences.
+Segment countries by continent or income level to detect patterns.
+
+✅ Provide Data-Driven Policy Recommendations
+
+Suggest policies that could improve happiness levels based on data insights.
+Measure the impact of economic growth on happiness and propose strategies to enhance well-being.
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
