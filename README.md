@@ -1,7 +1,7 @@
 
 # WORLD HAPPINESS REPORT
 
-![image](images/image1.jpeg)
+![image](images/image1.jpeg) ![image](images/image2.jpg)![image](images/image3.jpg)
 
 
 This project aims to provide an in-depth analysis of the happiness rates of countries around the world between 2020 and 2024 and  analyze the key factors influencing happiness levels across different countries and provide insights for policymakers, economists, and social scientists.
@@ -57,36 +57,123 @@ Suggest policies that could improve happiness levels based on data insights.
 Measure the impact of economic growth on happiness and propose strategies to enhance well-being.
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+Focus on 4 hypotheses 
+
+* 1️⃣ Regional Happiness Score Differences
+I assume that Europe's happiness score is higher than Asia's in terms of world economy, lifestyle and population density.
+
+t-test will be used
+
+2️⃣ Per Capita Income and Happiness Relationship
+I think that in today's conditions, the economy is directly related to happiness and I wanted to show this connection.
+
+Pearson Correlation Test will be used
+
+3️⃣ Social Support and Happiness Relationship
+
+Correlation Analysis will be used
+
+4️⃣ Comparison of Happiness Scores Between 2020 and 2024
+I wanted to observe if there was a difference between the years. Technology is developing day by day. Since the economy and other things were affected by the pandemic in 2020, I wanted to examine if there would be a difference in 4 years.
+
+Independent Two-Sample t-Test will be used
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
 
+1-Data Cleaning 
 
-Undertake initial analysis to look at potential hypothesis to test.
-Agree Hypothesis to test and first steps.
-Complete First ETL for core data
-Identify potential data to enhance analysis
-Undertake analysis to prove/disprove hypothesis
-undertake T-Tests on hypothesis and make results
+Data Import & Inspection: Loaded 2020.csv,2021.csv, 2022.csv, 2023.csv, 2024.csv  files . checked structure.
 
+Handling Missing Values: Applied imputation, removal, or "unknown" categorisation.
 
-Produce commentary of hypothesis results and analysis
+Standardisation & Formatting: Reformatted dates, verified categorical consistency.
+
+Filtering & Structuring: Removed redundant records and prepared data for analysis.
+
+Output: cleaned and combined file saved  as Combined_Cleaned.csv
+
+2-Exploratory Data Analysis
+
+3-Statistical Analysis
+
+4-Hypotheses examination
+
+Four hypotheses tested and used matplotlib and seaborn used and visualised.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* 1. Identify Key Factors Affecting Happiness
+
+Business Requirement: Determine which economic and social factors have the most significant impact on happiness levels.
+
+Rationale: We want to understand how different factors (e.g., GDP, social support, health, freedom, generosity, and corruption) influence happiness scores. To do this:
+
+Histogram: To visualize the distribution of numerical columns like "Happiness score", "Economy (GDP per Capita)", etc.
+
+Box Plot: To check for outliers in numerical data.
+
+Correlation Heatmap: To identify relationships between numerical columns.
+
+pair plot : see relationships between multiple features at once
+
+* 2. Analyze Happiness Trends Over Time
+
+Business Requirement: Examine how happiness scores have changed between 2020 and 2024, and assess the impact of global events like COVID-19 on happiness levels.
+
+Rationale: This business requirement is focused on the temporal changes in happiness.
+
+Line Graph: Use a line chart to plot happiness scores over time (for each year) to identify any upward or downward trends.
+
+* 3. Visualize Country Comparisons
+Business Requirement: Identify the happiest and least happy countries, and evaluate geographic and economic influences. Segment countries by continent or income level to detect patterns.
+
+Rationale: To understand global disparities and analyze patterns across countries.
+
+Line Graph: Use a line chart to plot happiness scores over time (for each year) to identify any upward or downward trends.
+
+* 4.Provide Data-Driven Policy Recommendations
+
+Business Requirement: Suggest policies that could improve happiness levels based on data insights, and measure the impact of economic growth on happiness.
+
+Rationale: This is about deriving actionable insights from data to improve policy and increase happiness.
+
+Regression Line: Overlay a linear regression line on the scatter plot to highlight the relationship between GDP and happiness.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* Data Analysis Methods Used and Limitations
+
+Methods: Descriptive statistics (mean, median, standard deviation), exploratory data analysis (EDA), statistical tests (T-test), visualizations (bar chart, line chart, scatter plot, regression analysis).
+
+Limitations: Happiness score could be understood much more clearly if more detailed data was available.
+
+Step 1: Data cleaning and preprocessing (missing data, date formats).
+Step 2: Exploration of data distribution and relationships through EDA.
+Step 3: Hypothesis testing through statistical tests (T-test).
+Step 4: Presentation of findings through data visualizations (bar chart, line chart, regression line).
+Data Limitations and Alternative Approaches
+
+Missing Data: Missing data posed challenges, but analyses were carried out by either removing or imputing missing values.
+Data Granularity: Since the data was country-level, deeper analyses were not possible; however, regional analysis was conducted to address this limitation.
+Use of Generative AI Tools
+
+Ideation: Ideas for analysis and visualizations were developed.
+Design Thinking: The data analysis process was structured accordingly.
+Code Optimization: Code optimization was performed for data cleaning, analysis, and visualization processes.
+Primary Challenge: The "Year" column had mixed formats (date and integer). This issue was addressed by converting the "Year" column to integers.
+
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+Data Privacy, Bias, or Fairness Issues:
+
+Data Privacy: The dataset primarily contains public information, such as happiness scores and various indicators (GDP, social support, etc.) for countries, which do not include personal or sensitive data. Therefore, there were no direct data privacy issues.
+
+Bias: The data reflects happiness and economic/social indicators across countries, which could potentially be influenced by biases in how data is collected or the measurements of happiness themselves. For example, the way happiness is measured might not be consistent across cultures, leading to potential cultural bias in the results.
+
+Fairness: Since the analysis involves global happiness scores, ensuring fairness is crucial. Some countries might have limited or skewed data, affecting the overall conclusions about their happiness levels. This was addressed by considering the reliability and completeness of data from different regions.
+How Legal or Societal Issues Were Overcome:
+
+Legal Issues: Since the data is publicly available and does not involve any personal identifiers, there were no legal issues related to data privacy or security. However, ensuring that the data is used responsibly and with transparency in analysis was important.
+
+Societal Issues: To address societal concerns, the analysis took into account that the measurement of happiness can be subjective and influenced by many cultural and societal factors. Efforts were made to acknowledge these differences and avoid drawing overgeneralized conclusions about happiness in various countries. Additionally, the limitations of the data and the potential for misinterpretation were clearly communicated to avoid societal misunderstandings.
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -103,45 +190,68 @@ Produce commentary of hypothesis results and analysis
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
 
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* Pandas:
 
+Purpose: Data manipulation and analysis, especially for handling tabular data (CSV files, dataframes) and performing operations like filtering, grouping, and aggregation.
 
+NumPy:
+
+Purpose:  Used for numerical operations, particularly for working with arrays and mathematical operations statistical analysis on large datasets.
+
+Matplotlib:
+
+Purpose: Used for creating static visualizations like bar charts, line plots, histograms, etc.
+
+Seaborn:
+
+Purpose: Built on top of Matplotlib, used for statistical data visualization, such as box plots, heatmaps, and pair plots.
+
+SciPy:
+
+Purpose: Used for statistical analysis and hypothesis testing, including t-tests, correlation tests, etc.
+
+Streamlit:
+
+Purpose: Used for creating interactive web-based dashboards that allow users to interact with data visualizations and control the analysis.
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
+Data source
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The World Happiness Report dataset was sourced from Kaggle.
+https://www.kaggle.com/datasets/samithsachidanandan/world-happiness-report-2020-2024/code 
+
+This dataset provides insights into global happiness levels, along with various contributing factors such as GDP, social support, life expectancy, and corruption.
+
+Code & Tutorials:
+
+The code for statistical analysis and data visualization was adapted from various online resources, including:
+
+GeeksforGeeks - Pandas Documentation
+
+Stack Overflow - For resolving specific coding issues and troubleshooting errors related to Pandas, Matplotlib, and other libraries.
+
+Kaggle Notebooks - For insights on performing data analysis using Python and tutorials on common data science tasks.
+
+ChatGBT
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
+Images & Visualizations:
 
+Some of the charts and maps used in this project were inspired by the following tutorials:
+Matplotlib Documentation - For creating various types of visualizations such as histograms, bar charts, and scatter plots.
+Seaborn Gallery - For designing visually appealing statistical plots such as boxplots and pair plots.
+Plotly Express Documentation - For generating interactive charts.
 
+- The photos and images  used on the home and sign-up page are from 
+This Open-Source site- google images 
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+I sincerely thank my mentors, peers, and dataset providers for their guidance and support. Special thanks to my family and friends for their encouragement throughout this project.
 
+I would also like to thank the computer that is very slow, my daughter who is constantly asking for something, and my husband who distracts me by asking where things are at the beginning of every hour. 
 
 [def]: C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\images\image1.jpeg
