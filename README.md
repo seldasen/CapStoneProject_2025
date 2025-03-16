@@ -101,7 +101,7 @@ Output: cleaned and combined file saved  as Combined_Cleaned.csv
 Four hypotheses tested and used matplotlib and seaborn used and visualised.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* 1. Identify Key Factors Affecting Happiness
+* Identify Key Factors Affecting Happiness
 
 Business Requirement: Determine which economic and social factors have the most significant impact on happiness levels.
 
@@ -115,7 +115,7 @@ Correlation Heatmap: To identify relationships between numerical columns.
 
 pair plot : see relationships between multiple features at once
 
-* 2. Analyze Happiness Trends Over Time
+* Analyze Happiness Trends Over Time
 
 Business Requirement: Examine how happiness scores have changed between 2020 and 2024, and assess the impact of global events like COVID-19 on happiness levels.
 
@@ -123,14 +123,14 @@ Rationale: This business requirement is focused on the temporal changes in happi
 
 Line Graph: Use a line chart to plot happiness scores over time (for each year) to identify any upward or downward trends.
 
-* 3. Visualize Country Comparisons
+*  Visualize Country Comparisons
 Business Requirement: Identify the happiest and least happy countries, and evaluate geographic and economic influences. Segment countries by continent or income level to detect patterns.
 
 Rationale: To understand global disparities and analyze patterns across countries.
 
 Line Graph: Use a line chart to plot happiness scores over time (for each year) to identify any upward or downward trends.
 
-* 4.Provide Data-Driven Policy Recommendations
+*  Provide Data-Driven Policy Recommendations
 
 Business Requirement: Suggest policies that could improve happiness levels based on data insights, and measure the impact of economic growth on happiness.
 
@@ -146,9 +146,13 @@ Methods: Descriptive statistics (mean, median, standard deviation), exploratory 
 Limitations: Happiness score could be understood much more clearly if more detailed data was available.
 
 Step 1: Data cleaning and preprocessing (missing data, date formats).
+
 Step 2: Exploration of data distribution and relationships through EDA.
+
 Step 3: Hypothesis testing through statistical tests (T-test).
+
 Step 4: Presentation of findings through data visualizations (bar chart, line chart, regression line).
+
 Data Limitations and Alternative Approaches
 
 Missing Data: Missing data posed challenges, but analyses were carried out by either removing or imputing missing values.
@@ -181,14 +185,11 @@ Societal Issues: To address societal concerns, the analysis took into account th
 * How were data insights communicated to technical and non-technical audiences?
 * Explain how the dashboard was designed to communicate complex data insights to different audiences. 
 
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+*While preparing the data, I had edited the column names and types. In particular, I had changed the Year column to Date. However, when doing the next EDA section, I had to convert it back to integer.
+
+*I wanted to work on regions, but I only had country names. My first hypothesis was to compare only Asia and Europe, so I ignored the other countries. As the project progressed, I realized that I had not included the other regions when I wanted to see different regions. I went back and adjusted it to include all regions.
 
 
 ## Main Data Analysis Libraries
