@@ -244,14 +244,14 @@ Purpose: Used for creating interactive web-based dashboards that allow users to 
 ## Credits 
 
 ### Content 
-Data source
+* Data source
 
-- The World Happiness Report dataset was sourced from Kaggle.
+ The World Happiness Report dataset was sourced from Kaggle.
 https://www.kaggle.com/datasets/samithsachidanandan/world-happiness-report-2020-2024/code 
 
 This dataset provides insights into global happiness levels, along with various contributing factors such as GDP, social support, life expectancy, and corruption.
 
-Code & Tutorials:
+* Code & Tutorials:
 
 The code for statistical analysis and data visualization was adapted from various online resources, including:
 
@@ -265,17 +265,22 @@ ChatGBT
 
 ### Media
 
-Images & Visualizations:
+* Images & Visualizations:
 
 Some of the charts and maps used in this project were inspired by the following tutorials:
+
 Matplotlib Documentation - For creating various types of visualizations such as histograms, bar charts, and scatter plots.
+
 Seaborn Gallery - For designing visually appealing statistical plots such as boxplots and pair plots.
+
 Plotly Express Documentation - For generating interactive charts.
 
-- The photos and images  used on the home and sign-up page are from 
+The photos and images  used on the home and sign-up page are from 
+
 This Open-Source site- google images 
 
 ## Acknowledgements
+
 I sincerely thank my mentors, peers, and dataset providers for their guidance and support. Special thanks to my family and friends for their encouragement throughout this project.
 
 I would also like to thank the computer that is very slow, my daughter who is constantly asking for something, and my husband who distracts me by asking where things are at the beginning of every hour. 
