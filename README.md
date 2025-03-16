@@ -1,7 +1,7 @@
 
 # WORLD HAPPINESS REPORT
 
-![image](images/image1.jpeg) ![image](images/image2.jpg)![image](images/image3.jpg)
+ ![image](images/image2.jpg)
 
 
 This project aims to provide an in-depth analysis of the happiness rates of countries around the world between 2020 and 2024 and  analyze the key factors influencing happiness levels across different countries and provide insights for policymakers, economists, and social scientists.
