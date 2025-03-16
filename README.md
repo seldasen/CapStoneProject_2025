@@ -194,6 +194,8 @@ Societal Issues: To address societal concerns, the analysis took into account th
 
 ## Future Plan
 
+![image](images/image1.jpg)
+
 In the future, by adding additional data, detailed results such as the following can be obtained.
 
 ✅ Public Policy & Governance:
