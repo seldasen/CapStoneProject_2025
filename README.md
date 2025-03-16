@@ -33,7 +33,7 @@ There are 5 csv files for the years 2020-2024.  They Have  eleven columns . Comb
 
 
 ## Business Requirements
-*  The business requirements should focus on understanding the factors that influence happiness scores and analyzing differences between countries. 
+The business requirements should focus on understanding the factors that influence happiness scores and analyzing differences between countries. 
 
  ✅ Identify Key Factors Affecting Happiness
 
@@ -222,23 +222,23 @@ Example: Countries with strong social support systems often rank higher in happi
 
 Purpose: Data manipulation and analysis, especially for handling tabular data (CSV files, dataframes) and performing operations like filtering, grouping, and aggregation.
 
-NumPy:
+* NumPy:
 
 Purpose:  Used for numerical operations, particularly for working with arrays and mathematical operations statistical analysis on large datasets.
 
-Matplotlib:
+* Matplotlib:
 
 Purpose: Used for creating static visualizations like bar charts, line plots, histograms, etc.
 
-Seaborn:
+* Seaborn:
 
 Purpose: Built on top of Matplotlib, used for statistical data visualization, such as box plots, heatmaps, and pair plots.
 
-SciPy:
+* SciPy:
 
 Purpose: Used for statistical analysis and hypothesis testing, including t-tests, correlation tests, etc.
 
-Streamlit:
+* Streamlit:
 
 Purpose: Used for creating interactive web-based dashboards that allow users to interact with data visualizations and control the analysis.
 ## Credits 
@@ -275,9 +275,7 @@ Seaborn Gallery - For designing visually appealing statistical plots such as box
 
 Plotly Express Documentation - For generating interactive charts.
 
-The photos and images  used on the home and sign-up page are from 
-
-This Open-Source site- google images 
+The photos and images  used on the home and sign-up page are from This Open-Source site- google images 
 
 ## Acknowledgements
 
