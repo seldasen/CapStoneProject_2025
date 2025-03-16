@@ -59,7 +59,7 @@ Measure the impact of economic growth on happiness and propose strategies to enh
 ## Hypothesis and how to validate?
 Focus on 4 hypotheses 
 
-* 1️⃣ Regional Happiness Score Differences
+1️⃣ Regional Happiness Score Differences
 I assume that Europe's happiness score is higher than Asia's in terms of world economy, lifestyle and population density.
 
 t-test will be used
@@ -139,7 +139,7 @@ Rationale: This is about deriving actionable insights from data to improve polic
 Regression Line: Overlay a linear regression line on the scatter plot to highlight the relationship between GDP and happiness.
 
 ## Analysis techniques used
-* Data Analysis Methods Used and Limitations
+Data Analysis Methods Used and Limitations
 
 Methods: Descriptive statistics (mean, median, standard deviation), exploratory data analysis (EDA), statistical tests (T-test), visualizations (bar chart, line chart, scatter plot, regression analysis).
 
@@ -166,6 +166,7 @@ Primary Challenge: The "Year" column had mixed formats (date and integer). This 
 
 
 ## Ethical considerations
+
 Data Privacy, Bias, or Fairness Issues:
 
 Data Privacy: The dataset primarily contains public information, such as happiness scores and various indicators (GDP, social support, etc.) for countries, which do not include personal or sensitive data. Therefore, there were no direct data privacy issues.
@@ -191,8 +192,32 @@ Societal Issues: To address societal concerns, the analysis took into account th
 
 *I wanted to work on regions, but I only had country names. My first hypothesis was to compare only Asia and Europe, so I ignored the other countries. As the project progressed, I realized that I had not included the other regions when I wanted to see different regions. I went back and adjusted it to include all regions.
 
+## Future Plan
+
+In the future, by adding additional data, detailed results such as the following can be obtained.
+
+✅ Public Policy & Governance:
+
+Governments can use happiness data to evaluate the impact of policies on well-being.
+Example: Tracking how GDP growth or social programs influence happiness scores.
+
+✅ Business & Workplace Well-being:
+
+Companies can analyze happiness trends to improve employee satisfaction and productivity.
+Example: Identifying how work-life balance initiatives affect happiness in different countries.
+
+✅ Healthcare & Mental Well-being:
+
+Researchers can assess the impact of healthcare access and mental health support on national happiness.
+Example: Analyzing Healthy Life Expectancy vs. Happiness Scores across nations.
+
+✅ Economic Development & Sustainability:
+
+Happiness data can help track the effectiveness of economic policies beyond GDP metrics.
+Example: Countries with strong social support systems often rank higher in happiness.
 
 ## Main Data Analysis Libraries
+
 * Pandas:
 
 Purpose: Data manipulation and analysis, especially for handling tabular data (CSV files, dataframes) and performing operations like filtering, grouping, and aggregation.
