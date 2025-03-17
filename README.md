@@ -198,7 +198,7 @@ Box Plot: Displays the distribution of happiness scores for each year, helping t
    
 Bar Chart: Ranks the happiest and least happy countries for easy comparison.
 
-Scatter Plot with Regression Line: Visualizes the relationship between GDP per capita and happiness score, highlighting economic factors' influence on happiness.
+Scatter Plot : Visualizes the relationship between GDP per capita and happiness score, highlighting economic factors' influence on happiness.
 
 -Communicating Insights Through Visualizations
 
