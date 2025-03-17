@@ -286,7 +286,7 @@ Kaggle Notebooks - For insights on performing data analysis using Python and tut
 
 ### Generative ID 
 I used ChatGPT and Copilot 
-Please view the [Generative_AI](C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\Generative_AI.md)
+Please view the [Generative_AI] (C:\Users\balla\OneDrive\Documents\CapStoneProject_2025\Generative_AI.md)
 
 
 ### Media
