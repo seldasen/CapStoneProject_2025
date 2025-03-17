@@ -224,7 +224,6 @@ Example: Countries with strong social support systems often rank higher in happi
 
 Purpose: Data manipulation and analysis, especially for handling tabular data (CSV files, dataframes) and performing operations like filtering, grouping, and aggregation.
 
-<<<<<<< HEAD
 -NumPy:
 
 Purpose:  Used for numerical operations, particularly for working with arrays and mathematical operations statistical analysis on large datasets.
@@ -236,33 +235,6 @@ Purpose: Used for creating static visualizations like bar charts, line plots, hi
 -Seaborn:
 
 Purpose: Built on top of Matplotlib, used for statistical data visualization, such as box plots, heatmaps, and pair plots.
-
--SciPy:
-
-Purpose: Used for statistical analysis and hypothesis testing, including t-tests, correlation tests, etc.
-
--Streamlit:
-=======
-* NumPy:
-
-Purpose:  Used for numerical operations, particularly for working with arrays and mathematical operations statistical analysis on large datasets.
-
-* Matplotlib:
-
-Purpose: Used for creating static visualizations like bar charts, line plots, histograms, etc.
-
-* Seaborn:
-
-Purpose: Built on top of Matplotlib, used for statistical data visualization, such as box plots, heatmaps, and pair plots.
-
-* SciPy:
-
-Purpose: Used for statistical analysis and hypothesis testing, including t-tests, correlation tests, etc.
-
-* Streamlit:
->>>>>>> 89bd590eec5c74d093e606940bc625ad403c9583
-
-Purpose: Used for creating interactive web-based dashboards that allow users to interact with data visualizations and control the analysis.
 
 ## Credits 
 
