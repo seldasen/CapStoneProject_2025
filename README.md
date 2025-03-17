@@ -202,11 +202,11 @@ Scatter Plot : Visualizes the relationship between GDP per capita and happiness 
 
 -Communicating Insights Through Visualizations
 
-For Technical Users: Statistical analyses, regression lines, and hypothesis testing provide in-depth analytical insights.
+For Technical Users: Statistical analyses, trend lines, and hypothesis testing provide in-depth analytical insights.
 
 For Non-Technical Users: Interactive maps, bar charts, and summary statistics ensure an intuitive understanding of the data.
 
--User Experience (UX) Considerations in Dashboard Design
+-User Experience Considerations in Dashboard Design
 
 Color Coding: Clear color transitions in maps and charts improve data interpretation.
 
