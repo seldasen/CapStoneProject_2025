@@ -278,7 +278,7 @@ The photos and images  used on the home and sign-up page are from This Open-Sour
 
 ## Acknowledgements
 
-I sincerely thank my mentors, peers, and dataset providers for their guidance and support. Special thanks to my family and friends for their encouragement throughout this project.
+I sincerely thank my mentors, course mates, and dataset providers for their guidance and support. Special thanks to my family and friends for their encouragement throughout this project.
 
 I would also like to thank the computer that is very slow, my daughter who is constantly asking for something, and my husband who distracts me by asking where things are at the beginning of every hour. 
 
