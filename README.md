@@ -181,10 +181,40 @@ Legal Issues: Since the data is publicly available and does not involve any pers
 Societal Issues: To address societal concerns, the analysis took into account that the measurement of happiness can be subjective and influenced by many cultural and societal factors. Efforts were made to acknowledge these differences and avoid drawing overgeneralized conclusions about happiness in various countries. Additionally, the limitations of the data and the potential for misinterpretation were clearly communicated to avoid societal misunderstandings.
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+
+In this project, a multi-layered dashboard was created to analyze the World Happiness Report data and provide meaningful insights to different user groups. The dashboard was enriched with various visualizations and interactive elements to ensure that both technical and non-technical users could easily understand the data.
+
+-Home Page (Overview Page)
+Summary Information: General happiness scores, the happiest and least happy countries.
+Map Visualization: A world map with countries color-coded based on their happiness scores.
+
+- Yearly Trends
+   
+Line Chart: Shows the changes in happiness scores from 2020 to 2024.
+
+Box Plot: Displays the distribution of happiness scores for each year, helping to understand the impact of global events.
+
+- Country-Based Analysis
+   
+Bar Chart: Ranks the happiest and least happy countries for easy comparison.
+
+Scatter Plot with Regression Line: Visualizes the relationship between GDP per capita and happiness score, highlighting economic factors' influence on happiness.
+
+Communicating Insights Through Visualizations
+
+For Technical Users: Statistical analyses, regression lines, and hypothesis testing provide in-depth analytical insights.
+
+For Non-Technical Users: Interactive maps, bar charts, and summary statistics ensure an intuitive understanding of the data.
+
+User Experience (UX) Considerations in Dashboard Design
+
+Color Coding: Clear color transitions in maps and charts improve data interpretation.
+
+Interactive Elements: Filters allow users to select specific years or countries for a detailed analysis.
+
+Explanatory Titles and Notes: Descriptive text accompanies graphs to help non-technical users understand key insights.
+
+This approach ensures that the dashboard is designed to support data-driven decision-making for both technical and non-technical audiences.
 
 
 ## Development Roadmap
